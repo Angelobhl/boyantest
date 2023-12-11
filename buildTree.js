@@ -7,17 +7,17 @@ const arr = [
   { id: 8, name: "i8", parentId: 7 }
 ];
 // 出参格式可自行设计, 举例：
-{
-  id: 1,
-  name: 'i1',
-  children: [
-    {
-      id: 2,
-      name: 'i2',
-      children: []
-    }
-  ]
-}
+// {
+//   id: 1,
+//   name: 'i1',
+//   children: [
+//     {
+//       id: 2,
+//       name: 'i2',
+//       children: []
+//     }
+//   ]
+// }
 
 function buildTree(arr) {
   /**
